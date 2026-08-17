@@ -108,7 +108,7 @@ These are **not** generated – building them is the exercise.
 2. Build `htm_asset_gold` with the derived fields – **do the `is_past_eos` / `eos_year` /
    `risk_tier` derivations in gold**, not on the fly in Genie, so every answer is consistent.
 3. Define 2–3 Metric Views (percent past EOS, replacement count by year, replacement spend by year).
-4. Build the Genie Space over `htm_asset_gold` + the Metric Views; curate instructions, a glossary
+4. Build the Genie Agent over `htm_asset_gold` + the Metric Views; curate instructions, a glossary
    (EOS, PM, HTM), and sample SQL. Get "What anesthesia machines need replacement in 2026?"
    answering cleanly – that is the demo.
 5. One `ai_forecast` call → `htm_forecast_gold` for replacement volume/spend by year.

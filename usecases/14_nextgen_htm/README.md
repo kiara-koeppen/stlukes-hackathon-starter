@@ -44,7 +44,7 @@ Build in your group's own schema (not `shared`). A good order:
 2. **Govern the KPIs.** Define a couple of **Metric Views** over gold: `% past EOS`,
    `replacement count by year`, `replacement spend by year`. This is the certified semantic layer
    so the Genie number and the Finance number never disagree.
-3. **The Genie moment.** Build a **Genie Space** over `htm_asset_gold` + your Metric Views. Curate
+3. **The Genie moment.** Build a **Genie Agent** over `htm_asset_gold` + your Metric Views. Curate
    it with instructions, a glossary (EOS = end-of-support, PM = preventive maintenance, HTM), and
    sample SQL. Get these answering cleanly:
    - "What anesthesia machines need replacement in 2026?" *(the headline)*
@@ -62,7 +62,7 @@ Build in your group's own schema (not `shared`). A good order:
 
 - **Lakeflow Declarative Pipelines** – bronze/silver/gold ingest + the work-order join.
 - **Metric Views** – governed, certified KPI definitions (the thing a spreadsheet can't guarantee).
-- **Genie Space (Agent Bricks)** – the natural-language querying showcase. Curate it well.
+- **Genie Agent** – the natural-language querying showcase. Curate it well.
 - **`ai_forecast`** – one-SQL-statement replacement-volume/spend projection.
 - **AI/BI Dashboards** or **Databricks Apps** – the HTM planner surface.
 - `ai_query` – optional, to narrate a scenario trade-off in plain language (stretch).

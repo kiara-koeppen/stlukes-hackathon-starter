@@ -77,9 +77,9 @@ You decide how to chain these. That's the fun part.
   Look at the **SQL-native AI functions** (`ai_extract`, `ai_query`) to pull the stated stage out of
   `ckd_clinical_notes.note_text`. Keep AI for the *fuzzy* step only; the clinically decisive logic
   stays in SQL.
-- **Let a clinician explore:** a **Genie Space** over your gold tables answers natural-language
+- **Let a clinician explore:** a **Genie Agent** over your gold tables answers natural-language
   questions ("how many G4-looking patients have no CKD diagnosis?") over *governed* data.
-- **The review worklist:** a **Databricks App** (or, faster, a Genie Space / dashboard) where a
+- **The review worklist:** a **Databricks App** (or, faster, a Genie Agent / dashboard) where a
   clinician sees the ranked list and can confirm, adjust, or dismiss each suggestion. This human
   decision point is what keeps it decision *support*.
 - **Prove it's right:** the generator kept a hidden true-stage column, so you *can* check your
@@ -89,7 +89,7 @@ You decide how to chain these. That's the fun part.
 ## Scope guidance
 
 **A great 1.5-day result** = clean data → the KDIGO rules in SQL → the **care-gap count** →
-a gold candidate table with suggested stage + evidence → one AI touch on the notes → a Genie Space
+a gold candidate table with suggested stage + evidence → one AI touch on the notes → a Genie Agent
 *or* a thin worklist to show it off.
 
 **Don't sink time into:** a fully styled App with write-back and auth roles; training an ML model to

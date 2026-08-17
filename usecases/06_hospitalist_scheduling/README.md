@@ -65,7 +65,7 @@ Full column dictionary + grain: `synthetic_data/schemas/06_scheduling_schema.md`
    row (objective value, status) to **your group's schema**.
 5. **Explain it.** Turn the solver's per-provider factors into a plain-language "why"; even a single
    `ai_query` call counts. Bonus: wire one what-if ("provider X off on day D") that re-solves.
-6. **Show it.** A Databricks App, a notebook dashboard, or a Genie Space over your draft table
+6. **Show it.** A Databricks App, a notebook dashboard, or a Genie Agent over your draft table
    showing the calendar, coverage fill, and equity spread.
 
 ## Hints: features that fit
@@ -76,9 +76,9 @@ Full column dictionary + grain: `synthetic_data/schemas/06_scheduling_schema.md`
   Both are plain `pip install` in a Databricks notebook.
 - **Data prep:** medallion tables with Lakeflow Declarative Pipelines / Spark SQL (Pattern A).
 - **Explanation / what-if agent:** `ai_query` for the quick path, or a custom agent on **Model
-  Serving** / an **Agent Bricks** setup (Genie Space for "why" data lookups + a solver tool for
+  Serving** / a **composable agent** (Genie Agent for "why" data lookups + a solver tool for
   re-solve).
-- **UI:** **Databricks Apps** (React/FastAPI) for the reviewer cockpit, or a Genie Space / dashboard
+- **UI:** **Databricks Apps** (React/FastAPI) for the reviewer cockpit, or a Genie Agent / dashboard
   for a lighter demo.
 - **Eval (bonus):** MLflow `genai.evaluate()` to score feasibility, equity, preference-satisfaction,
   and explanation faithfulness (Pattern J).

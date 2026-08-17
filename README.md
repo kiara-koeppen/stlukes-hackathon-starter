@@ -1,6 +1,6 @@
 # St. Luke's AI Hackathon - Starter Kit
 
-Welcome to the St. Luke's AI Dev Collaborative Hackathon (Aug 19–20, 2026). This repo gives every
+Welcome to the St. Luke's AI Dev Collaborative Hackathon (Sept 16–17, 2026). This repo gives every
 team the **same synthetic data and a skeleton to build on**, so we all start from the same place and
 you can focus on the AI, not the plumbing.
 

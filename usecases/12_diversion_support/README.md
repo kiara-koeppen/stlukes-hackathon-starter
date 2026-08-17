@@ -100,7 +100,7 @@ Build the chain **in order** - this ordering is the whole point of the pattern:
   data lives, lands in a Delta column, and every call is traceable. No endpoint to manage.
 - **Output:** a notebook-rendered report is fine for the MVP. Stretch: a **Databricks App** (with
   RBAC/OBO) and a **generated PDF** (`generate_and_upload_pdf` to a UC Volume) - the format HR/legal
-  actually wants. A **Genie Space** over the gold tables is a nice companion for ad-hoc exploration.
+  actually wants. A **Genie Agent** over the gold tables is a nice companion for ad-hoc exploration.
 - **Cohort size:** comparing a Tech to an RN produces noise. Keep cohorts to role × unit; for tiny
   units fall back to role-only so you have enough peers for a meaningful z-score.
 

@@ -47,7 +47,7 @@ column dictionary in `synthetic_data/schemas/10_nursing_schema.md`.
    PTO/LOA/terminations, plus future hires) vs. `required_fte`, and the net gap.
 4. **Forecast** shortages/surpluses into future pay periods. `ai_forecast` gets you a credible curve
    in one SQL statement - great for the MVP.
-5. **Deliver** it: a **Genie Space** so leaders can ask "which units are short RNs on nights next pay
+5. **Deliver** it: a **Genie Agent** so leaders can ask "which units are short RNs on nights next pay
    period?", and/or a **Databricks App** dashboard (net-FTE heatmap by pay period).
 
 ## Hints / features that fit
