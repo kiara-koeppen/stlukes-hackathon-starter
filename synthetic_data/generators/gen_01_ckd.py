@@ -1,4 +1,8 @@
 # Databricks notebook source
+# MAGIC %pip install faker
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC # Synthetic Data Generator: Use Case 01: CKD Identification & Risk Flagging
 # MAGIC

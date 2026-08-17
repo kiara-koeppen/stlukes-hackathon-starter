@@ -1,4 +1,8 @@
 # Databricks notebook source
+# MAGIC %pip install faker
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC # Generator – Use Case 14: NextGen HTM Equipment Planning
 # MAGIC
